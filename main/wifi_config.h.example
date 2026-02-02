@@ -1,0 +1,10 @@
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+
+// Copy this file to wifi_config.h and update with your credentials
+
+#define EXAMPLE_ESP_WIFI_SSID "YOUR_WIFI_SSID"
+#define EXAMPLE_ESP_WIFI_PASS "YOUR_WIFI_PASSWORD"
+#define MQTT_BROKER_URI "mqtt://YOUR_BROKER_IP:1883"
+
+#endif // WIFI_CONFIG_H

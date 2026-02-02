@@ -99,3 +99,5 @@ dashboard/redis-data/
 # OS files
 .DS_Store
 Thumbs.db
+
+main/wifi_config.h
