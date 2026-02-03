@@ -170,6 +170,9 @@ Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 - **Libraries**: 
   - `paho-mqtt` (MQTT client)
   - `influxdb-client` (InfluxDB Python client)
+  
+
+  ![influxdb_data](/images/influxdb_data.png)
 
 ### Visualization
 - **Dashboard**: Grafana (latest)
