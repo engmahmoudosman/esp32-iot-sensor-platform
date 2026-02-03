@@ -175,7 +175,7 @@ Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 - **Dashboard**: Grafana (latest)
 - **Query Language**: Flux
 
-![dashboard](/images/grafana_dashboard.png)
+![dashboard](/images/grafana_dashboard2.png)
 
 ### Infrastructure
 - **Containerization**: Docker
