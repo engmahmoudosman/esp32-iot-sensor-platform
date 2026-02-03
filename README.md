@@ -395,29 +395,6 @@ from(bucket: "sensors")
 - Time-range selector (15m, 1h, 6h, 24h, 7d)
 - Auto-refresh every 5 seconds
 
-## Future Enhancements
-
-### Short Term
-- [ ] Add more sensor types (BMP280 for pressure, MQ-135 for air quality)
-- [ ] Implement OTA (Over-The-Air) firmware updates
-- [ ] Add TLS/SSL for MQTT communication
-- [ ] Create alert rules for threshold violations
-- [ ] Add data export functionality
-
-### Medium Term
-- [ ] Multiple ESP32 nodes support
-- [ ] REST API for data access
-- [ ] React-based custom dashboard
-- [ ] Mobile app for monitoring
-- [ ] Historical data analytics
-
-### Long Term
-- [ ] Machine learning for anomaly detection
-- [ ] Predictive maintenance
-- [ ] Energy optimization algorithms
-- [ ] Multi-tenant support
-- [ ] Cloud deployment (AWS/GCP/Azure)
-
 ##  Troubleshooting
 
 ### ESP32 Issues
@@ -476,8 +453,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 Mahmoud Esameldin Osman- engmahmoudosman@outlook.com
-
-Project Link: [https://github.com/YOUR_USERNAME/esp32_mqtt_dht22](https://github.com/YOUR_USERNAME/esp32_mqtt_dht22)
+[LinkedIn](https://www.linkedin.com/in/engmahmoudosman/)
 
 ## References 
 
