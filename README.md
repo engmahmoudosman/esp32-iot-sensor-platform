@@ -6,7 +6,7 @@ A complete IoT solution for real-time environmental monitoring using ESP32 micro
 ![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v5.5.2-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -23,7 +23,7 @@ A complete IoT solution for real-time environmental monitoring using ESP32 micro
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project implements a complete IoT sensor monitoring system that collects environmental data (temperature and humidity) from DHT22 sensors connected to ESP32 microcontrollers, transmits the data via MQTT protocol, stores it in a time-series database, and visualizes it in real-time through Grafana dashboards.
 
@@ -35,40 +35,40 @@ This project implements a complete IoT sensor monitoring system that collects en
 - Live monitoring dashboards with Grafana
 - Persistent data storage across restarts
 
-## ✨ Features
+##  Features
 
 ### Hardware Layer
-- ✅ ESP32-based sensor nodes
-- ✅ DHT22 temperature and humidity sensor integration
-- ✅ WiFi connectivity
-- ✅ MQTT client implementation
-- ✅ Configurable sampling intervals
+-  ESP32-based sensor nodes
+-  DHT22 temperature and humidity sensor integration
+-  WiFi connectivity
+-  MQTT client implementation
+-  Configurable sampling intervals
 
 ### Communication Layer
-- ✅ MQTT protocol (QoS 0)
-- ✅ Eclipse Mosquitto broker
-- ✅ Topic-based message routing
-- ✅ Automatic reconnection handling
+-  MQTT protocol (QoS 0)
+-  Eclipse Mosquitto broker
+-  Topic-based message routing
+-  Automatic reconnection handling
 
 ### Data Processing
-- ✅ Python-based MQTT subscriber
-- ✅ Real-time data validation
-- ✅ Multi-database architecture (InfluxDB for time-series)
-- ✅ Error handling and logging
+-  Python-based MQTT subscriber
+-  Real-time data validation
+-  Multi-database architecture (InfluxDB for time-series)
+-  Error handling and logging
 
 ### Visualization
-- ✅ Grafana dashboards
-- ✅ Real-time data plotting
-- ✅ Historical data analysis
-- ✅ Customizable time ranges
+-  Grafana dashboards
+-  Real-time data plotting
+-  Historical data analysis
+-  Customizable time ranges
 
 ### Infrastructure
-- ✅ Docker containerization
-- ✅ Docker Compose orchestration
-- ✅ Persistent data volumes
-- ✅ Easy deployment and scaling
+-  Docker containerization
+-  Docker Compose orchestration
+-  Persistent data volumes
+-  Easy deployment and scaling
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐
@@ -119,7 +119,7 @@ This project implements a complete IoT sensor monitoring system that collects en
 6. **InfluxDB** stores time-series sensor readings
 7. **Grafana** queries and visualizes data in real-time
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 ### ESP32 Development Board
 - **Microcontroller**: ESP32-WROOM-32
@@ -155,7 +155,7 @@ Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 - Breadboard and jumper wires
 - 4.7kΩ resistor (pull-up for DHT22 data line)
 
-## 💻 Software Stack
+##  Software Stack
 
 ### Firmware Development
 - **Framework**: ESP-IDF v5.5.2
@@ -181,7 +181,7 @@ Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 - **Orchestration**: Docker Compose
 - **OS**: Linux (Debian-based)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 esp32_mqtt_dht22/
@@ -209,7 +209,7 @@ esp32_mqtt_dht22/
 └── README.md                  # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -325,7 +325,7 @@ Received: esp32/dht/temperature = 25.30
 ✓ Written to InfluxDB: temperature = 25.30
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### ESP32 Configuration
 
@@ -359,7 +359,7 @@ Access Grafana: `http://localhost:3000`
 - **Username**: admin
 - **Password**: admin (change on first login)
 
-## 📊 Dashboard
+## Dashboard
 
 ### Accessing Grafana
 
@@ -395,7 +395,7 @@ from(bucket: "sensors")
 - Time-range selector (15m, 1h, 6h, 24h, 7d)
 - Auto-refresh every 5 seconds
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Short Term
 - [ ] Add more sensor types (BMP280 for pressure, MQ-135 for air quality)
@@ -418,7 +418,7 @@ from(bucket: "sensors")
 - [ ] Multi-tenant support
 - [ ] Cloud deployment (AWS/GCP/Azure)
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### ESP32 Issues
 
@@ -468,27 +468,18 @@ docker compose logs
 - Check ESP32 is publishing: `idf.py monitor`
 - Test with mosquitto_sub: `mosquitto_sub -h localhost -t "esp32/dht/#" -v`
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+## Contact
 
 Mahmoud Esameldin Osman- engmahmoudosman@outlook.com
 
 Project Link: [https://github.com/YOUR_USERNAME/esp32_mqtt_dht22](https://github.com/YOUR_USERNAME/esp32_mqtt_dht22)
 
-## 🙏 Acknowledgments
+## References 
 
 - [ESP-IDF](https://docs.espressif.com/projects/esp-idf/) - Espressif IoT Development Framework
 - [Eclipse Mosquitto](https://mosquitto.org/) - Open source MQTT broker
