@@ -147,7 +147,7 @@ GND   ────────  GND
 
 Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 ```
-![image](/images/sensor_node.HEIC)
+![image](/images/sensor_node.jpg)
 
 ### Additional Components
 - USB cable for programming
