@@ -119,12 +119,12 @@ This project implements a complete IoT sensor monitoring system that collects en
 6. **InfluxDB** stores time-series sensor readings
 7. **Grafana** queries and visualizes data in real-time
 
-##  Hardware Requirements
+##  Hardware Used
 
 ### ESP32 Development Board
-- **Microcontroller**: ESP32-WROOM-32
-- **Cores**: Dual-core Xtensa LX6
-- **Clock Speed**: 240 MHz
+- **Microcontroller**: ESP32-S3 DevKitC-1
+- **Cores**: Xtensa® dual-core 32-bit LX7 microprocessor
+- **Clock Speed**: up tp 240 MHz
 - **Flash**: 4MB
 - **RAM**: 520KB SRAM
 - **WiFi**: 802.11 b/g/n
