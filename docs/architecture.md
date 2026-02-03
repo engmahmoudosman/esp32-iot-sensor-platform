@@ -9,7 +9,7 @@ This document describes the technical architecture of the ESP32 IoT Sensor Platf
 ### 1. Edge Layer (ESP32)
 
 **Hardware:**
-- MCU: ESP32-WROOM-32 (Dual-core Xtensa LX6 @ 240MHz)
+- MCU: ESP32-WROOM-32 (Dual-core Xtensa LX7 @ 240MHz)
 - Sensor: DHT22 (Temperature & Humidity)
 - Connectivity: WiFi 802.11 b/g/n
 
@@ -17,7 +17,7 @@ This document describes the technical architecture of the ESP32 IoT Sensor Platf
 - Framework: ESP-IDF v5.5.2
 - RTOS: FreeRTOS
 - MQTT Client: ESP-MQTT component
-- Sampling Rate: 5 seconds
+
 
 **Responsibilities:**
 - Sensor data acquisition
