@@ -13,7 +13,7 @@
 
 static const char* TAG = "DHT";
 
-int DHTgpio = 21;				// my default DHT pin = 4
+int DHTgpio = 21;				// default DHT gpio pin
 float humidity = 0.;
 float temperature = 0.;
 
@@ -51,14 +51,6 @@ void errorHandler(int response)
 	}
 }
 
-/*-------------------------------------------------------------------------------
-;
-;	get next state 
-;
-;	I don't like this logic. It needs some interrupt blocking / priority
-;	to ensure it runs in realtime.
-;
-;--------------------------------------------------------------------------------*/
 
 int getSignalLevel( int usTimeOut, bool state )
 {
