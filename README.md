@@ -18,9 +18,7 @@ A complete IoT solution for real-time environmental monitoring using ESP32 micro
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Dashboard](#dashboard)
-- [Future Enhancements](#future-enhancements)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -45,7 +43,7 @@ This project implements a complete IoT sensor monitoring system that collects en
 -  Configurable sampling intervals
 
 ### Communication Layer
--  MQTT protocol (QoS 0)
+-  MQTT protocol
 -  Eclipse Mosquitto broker
 -  Topic-based message routing
 -  Automatic reconnection handling
@@ -149,6 +147,7 @@ GND   ────────  GND
 
 Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 ```
+![image](/images/sensor_node.HEIC)
 
 ### Additional Components
 - USB cable for programming
@@ -175,6 +174,8 @@ Note: 4.7kΩ - 10kΩ pull-up resistor between DATA and VCC
 ### Visualization
 - **Dashboard**: Grafana (latest)
 - **Query Language**: Flux
+
+![dashboard](/images/grafana_dashboard.png)
 
 ### Infrastructure
 - **Containerization**: Docker
